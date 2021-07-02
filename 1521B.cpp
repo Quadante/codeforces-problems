@@ -22,7 +22,7 @@ int main()
         ll s = 2e15, d;
         for (ll i = 0; i < n; i++) {
             cin >> v[i];
-            if (v[i] < s) s = v[i], d = i;
+            if (v[i] < s) s =R v[i], d = i;
         }
         ll w = 0, i = d - 1, e = s + 1; p[d] = s;
         while (i >= 0) {
